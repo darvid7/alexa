@@ -8,11 +8,11 @@ Need
 
 1. **Intent Schema**
 
-- JSON structure that declares set of intents your service can accept & process
+ - JSON structure that declares set of intents your service can accept & process
 
 2. **Spoken Input Data**
 
-- Sample Utterances: Structured text file, connects intents to likely spoken phrases. Containing as many representative phrases as possible.
+ - Sample Utterances: Structured text file, connects intents to likely spoken phrases. Containing as many representative  phrases as possible.
 
 of form:
 
@@ -21,8 +21,11 @@ of form:
 i.e.
 
 WhatMyColourIntent what is my favourate color
+
 WhatMyColourIntent whats my favourate color
+
 WhatMyColourIntent my color
+
 WhatMyColourIntent my fav color
 
 maps all these phrases to the intent WhatMyColourIntent
