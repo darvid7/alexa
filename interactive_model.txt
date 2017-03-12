@@ -1,5 +1,5 @@
 ##  Intent Schema
-{{
+{
   "intents": [
     {
       "intent": "QuestionMeIntent"
