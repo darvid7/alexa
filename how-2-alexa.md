@@ -16,7 +16,7 @@ Need
 
 of form:
 
-<IntentName> phrase_in_lower_case
+IntentName phrase_in_lower_case
 
 i.e.
 
