@@ -1,0 +1,28 @@
+##  Intent Schema
+{{
+  "intents": [
+    {
+      "intent": "QuestionMeIntent"
+    },
+    {
+      "intent": "MyNameIntent",
+      "slots": [
+        {
+          "name": "Name",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+## Utterances
+
+QuestionMeIntent ask me a question
+QuestionMeIntent quiz me
+MyNameIntent i'm {unknown|Name}
+MyNameIntent I am {unknown|Name}
+MyNameIntent My name is {unknown|Name}
